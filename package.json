@@ -1,0 +1,26 @@
+{
+  "name": "nbt-viewer-cli",
+  "version": "1.0.0",
+  "description": "A CLI NBT file viewer written by Node.js.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [
+    "NBT",
+    "Minecraft"
+  ],
+  "author": "XadillaX",
+  "license": "GPLv2",
+  "dependencies": {
+    "async": "^0.9.0",
+    "mcnbt": "0.0.3-alpha",
+    "nomnom": "^1.8.1"
+  },
+  "preferGlobal": true,
+  "readmeFilename": "README.md",
+  "bin": {
+      "nbtviewer": "bin/nbtviewer.js",
+      "nbtv": "bin/nbtviewer.js"
+  }
+}
+
